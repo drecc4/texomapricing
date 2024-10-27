@@ -106,7 +106,7 @@ st.sidebar.title('Patient Inputs')
 select_history = st.sidebar.selectbox("Patient History", ['New', 'Existing'])
 select_scope = st.sidebar.selectbox("Procedure Scope", ['Top', 'Bottom', 'Top and Bottom'])
 select_service = st.sidebar.selectbox("Service Tier", ['Same Day Dentures', 'Snap In Dentures', 'All On 4'])
-select_teeth = st.sidebar.number_input("Natural Teeth", min_value=0, max_value=20, step=1, format="%0.1f")
+select_teeth = st.sidebar.number_input("Natural Teeth", min_value=0, max_value=20, step=1)
 
 #--------------------------------------------------------------------------------------------
 
