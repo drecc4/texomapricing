@@ -156,7 +156,7 @@ col3.write(f"{price_denture_low}")
 col4.write(f"{price_denture_high}")
 
 col1.write("Dentures New Patient Premium")
-col2.write(f"###### -")
+col2.write(f"###### 0")
 col3.write(f"{price_denture_premium}")
 col4.write(f"{price_denture_premium}")
 
@@ -166,7 +166,7 @@ col3.write(f"{price_implant}")
 col4.write(f"{price_implant}")
 
 col1.write("###### Total Gross")
-col2.write(f"###### -")
+col2.write(f"###### 0")
 col3.write(f"###### {total_gross_low}")
 col4.write(f"###### {total_gross_high}")
 
